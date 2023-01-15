@@ -1,0 +1,18 @@
+/*
+On commence avec le nom des balises qui se trouve dans les formats HTML, ensuite on choisit l'attribut puis la valeur
+*/
+
+
+h1,mark
+{
+    color:blue;
+}
+
+/*
+Ceci est une class ca permet d'appeler des balises spécifique
+*/
+
+.lien
+{
+    color: red;
+}

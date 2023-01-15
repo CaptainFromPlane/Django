@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'hello2app/style.css' %}">
+        <!--Titre affiché dans le navigateur ou de la recherche (100 char)-->
+        <title>
+            Blog Arthur CURIE 
+            
+        </title>
+    </head>
+    <body>
+        <h1>Blog de Arthur CURIE</h1>
+        <p>Bonjour à tous ! Je m'appelle Arthur CURIE et j'étudie à l'IPSA spécialisé en systèmes et télécommunications.</p>
+        <p>
+            <mark> faire un blog ?</mark> Bah c'est assez simple je suis actuellement à l'étranger pour mes études à Riga. Je suis à la fac RTU et j'ai peu de cours donc beaucoup de temps
+            , j'en profite pour apprendre de nouveaux langages comme HTML, CSS et là je viens de commencer Rust !<br/>
+            Pour l'instant ca va c'est pas encore compliqué ^^<br/>
+            <span class="lien"> le lien pour la page 2 :</span> <a href="page_2.html"title="Mes débuts en Rust">Projets</a>
+        </p>
+
+        <figure>
+            IPSA !<br />
+            <a href="https://www.ipsa.fr"><img src="{% static 'hello2app/images/ipsa-logo-2021.png' %}" alt="Logo"></a>
+            <figcaption>Lien vers le site IPSA</figcaption>
+
+        </figure>
+    </body>
+</html>
